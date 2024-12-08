@@ -29,7 +29,9 @@ Select Employees: In the employee list, check the checkboxes next to the employe
 Click the "Delete Selected" Button: This button will trigger a confirmation popup asking if you are sure about deleting the selected employees.
 Confirm Deletion: If confirmed, the selected employees will be deleted in one batch. This can be done via a POST request to the server, which processes the deletion of all selected employee records.
 Final Confirmation: Once the deletion is successful, a success message will appear, and the page will reload to reflect the changes.
+
 Implementation Details
+
 The Employee Management system is developed using the Code First approach in .NET Core MVC, SQL Server, and Entity Framework, allowing seamless creation, management, and maintenance of employee records through a structured and efficient database schema defined in code
 Add/ Edit: Handled by HTTP POST requests in the controller, where the employee data is passed and saved/updated in the database.
 Delete: Performed through a button click, triggering a confirmation popup , and if confirmed, a DELETE request is made to the backend to remove the employee.
