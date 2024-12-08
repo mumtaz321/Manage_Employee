@@ -1,4 +1,4 @@
-# Manage_Employee
+# Manage_Employees
 How to Use Manage_Employee to Add, Edit, Delete, and Multi-Delete Employees
 The Manage_Employee project allows users to manage employee records in a simple and efficient way. Below is a summary of the steps to Add, Edit, Delete, and Multi-Delete employees using the application.
 1. Add Employee
