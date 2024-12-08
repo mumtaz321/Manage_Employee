@@ -20,7 +20,7 @@ To delete a single employee:
 
 Navigate to the Employee List: Find the employee you want to delete.
 Click the "Delete" Button: There will be a "Delete" button next to each employee.
-Confirm Deletion: A confirmation popup (using SweetAlert or a similar library) will appear, asking you to confirm the deletion.
+Confirm Deletion: A confirmation popup will appear, asking you to confirm the deletion.
 Complete the Deletion: After confirming, the employee will be removed from the database.
 4. Multi-Delete Employees
 To delete multiple employees at once:
@@ -31,7 +31,7 @@ Confirm Deletion: If confirmed, the selected employees will be deleted in one ba
 Final Confirmation: Once the deletion is successful, a success message will appear, and the page will reload to reflect the changes.
 Implementation Details
 Add/ Edit: Handled by HTTP POST requests in the controller, where the employee data is passed and saved/updated in the database.
-Delete: Performed through a button click, triggering a confirmation popup (using libraries like SweetAlert2), and if confirmed, a DELETE request is made to the backend to remove the employee.
+Delete: Performed through a button click, triggering a confirmation popup , and if confirmed, a DELETE request is made to the backend to remove the employee.
 Multi-Delete: Similar to the single delete, but multiple employees can be selected using checkboxes. After selecting, the deletion happens via a POST request with an array of employee IDs.
 
 ![image](https://github.com/user-attachments/assets/072774ae-af1f-40a6-a6b3-72185c9091da)
