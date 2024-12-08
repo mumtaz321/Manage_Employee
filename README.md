@@ -35,3 +35,12 @@ Delete: Performed through a button click, triggering a confirmation popup (using
 Multi-Delete: Similar to the single delete, but multiple employees can be selected using checkboxes. After selecting, the deletion happens via a POST request with an array of employee IDs.
 
 ![image](https://github.com/user-attachments/assets/072774ae-af1f-40a6-a6b3-72185c9091da)
+
+![image](https://github.com/user-attachments/assets/6887c60e-f37f-455f-b5ac-9589e98bec0c)
+
+![image](https://github.com/user-attachments/assets/f3616fc6-ed0f-4f95-b42c-f050423dc8ea)
+
+![image](https://github.com/user-attachments/assets/ef00b622-d87b-4575-b90c-67180aeeef25)
+
+
+
