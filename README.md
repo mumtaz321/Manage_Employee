@@ -33,6 +33,7 @@ Final Confirmation: Once the deletion is successful, a success message will appe
 Implementation Details
 
 The Employee Management system is developed using the Code First approach in .NET Core MVC, SQL Server, and Entity Framework, allowing seamless creation, management, and maintenance of employee records through a structured and efficient database schema defined in code
+
 Add/ Edit: Handled by HTTP POST requests in the controller, where the employee data is passed and saved/updated in the database.
 Delete: Performed through a button click, triggering a confirmation popup , and if confirmed, a DELETE request is made to the backend to remove the employee.
 Multi-Delete: Similar to the single delete, but multiple employees can be selected using checkboxes. After selecting, the deletion happens via a POST request with an array of employee IDs.
